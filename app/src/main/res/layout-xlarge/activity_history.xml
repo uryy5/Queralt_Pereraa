@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall_game"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/ListFrag"
+        class="com.example.ivan.reversi_final.activity.HistoryListFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/buttonback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="onBackClick"
+        android:background="@drawable/return_main" />
+
+</LinearLayout>

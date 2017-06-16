@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen"
+    tools:context=".activity.GameScreen">
+
+
+    <fragment
+        android:id="@+id/parrilla"
+        android:layout_weight="1"
+        android:name="com.example.ivan.reversi_final.activity.ParrillaFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/parrilla_frag" />
+
+    <fragment
+        android:id="@+id/log"
+        android:layout_weight="1"
+        android:name="com.example.ivan.reversi_final.activity.LogFrag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/log_frag" />
+</LinearLayout>

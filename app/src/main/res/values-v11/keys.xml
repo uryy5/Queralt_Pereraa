@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="USER">Usuari</string>
+    <string name="DEFAULT">Player1</string>
+
+    <string name="GRID_SIZE">grid_size</string>
+    <string name="DEFAULT_GRID_SIZE">4</string>
+
+    <string name="ACTIVE_TIME">active_time</string>
+    <string name="TIME_SECONDS">time_seconds</string>
+
+    
+</resources>

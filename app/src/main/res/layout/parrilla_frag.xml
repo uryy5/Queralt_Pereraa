@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall_game">
+
+    <RelativeLayout
+        android:id="@+id/player2Container"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/alpha"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center">
+
+
+
+        <TextView
+            android:id="@+id/cells_remaining"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cells_remaining"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:layout_below="@+id/play_timer"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"/>
+
+        <TextView android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/play_timer"
+            android:textColor="#FFFFFF"
+            android:text="@string/time_00_00"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <GridView
+        android:id="@+id/gameboard_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:background="#000000"
+        android:gravity="center"
+        android:horizontalSpacing="0dp"
+        tools:listitem="@android:layout/simple_list_item_1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/player2Container">
+    </GridView>
+
+    <RelativeLayout
+        android:id="@+id/player1Container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/alpha"
+        android:layout_below="@+id/gameboard_grid" >
+
+        <ImageView
+            android:id="@+id/player1_contact_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/cell_black" />
+
+        <TextView
+            android:id="@+id/player1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/yellow"
+            android:textColor="@color/white"
+            android:text="@string/you"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/player1_contact_image"
+            android:layout_toEndOf="@+id/player1_contact_image" />
+
+        <TextView
+            android:id="@+id/player1_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/score"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/player1"
+            android:layout_alignStart="@+id/player1" />
+
+        <TextView
+            android:id="@+id/player1_time"
+            android:layout_marginRight="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:layout_alignParentBottom="true"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:id="@+id/player2_contact_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/cell_white" />
+
+        <TextView
+            android:id="@+id/player2_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:text="@string/score"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@+id/player2_contact_image"
+            android:layout_toStartOf="@+id/player2_contact_image" />
+
+        <TextView
+            android:id="@+id/player2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/player2_score"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/player2_score"
+            android:text="@string/cpu"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/show_moves"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ajuda"
+        android:textStyle="bold"
+        android:textColor="@color/WHITE"
+        android:backgroundTint="#FF0000"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

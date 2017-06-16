@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/GameOptions">
+
+    <EditTextPreference
+        android:id="@+id/user_config"
+        android:defaultValue="@string/DEFAULT"
+        android:dialogTitle="@string/pref_username_dialog"
+        android:key="@string/USER"
+        android:summary="@string/pref_username_summary"
+        android:title="@string/pref_username_title" />
+
+    <ListPreference
+        android:id="@+id/grid_config"
+        android:defaultValue="4"
+        android:dialogTitle="@string/pref_gridSize_dialog"
+        android:entries="@array/size_grid"
+        android:entryValues="@array/size"
+        android:key="@string/GRID_SIZE"
+        android:summary="@string/pref_gridSize_summary"
+        android:title="@string/pref_gridSize_title" />
+
+    <CheckBoxPreference
+        android:id="@+id/control_time"
+        android:defaultValue="true"
+        android:dialogTitle="@string/pref_controlTime_dialog"
+        android:key="@string/ACTIVE_TIME"
+        android:summary="@string/pref_controlTime_summary"
+        android:title="@string/pref_controlTime_title" />
+
+    <ListPreference
+        android:id="@+id/time"
+        android:defaultValue="40"
+        android:dialogTitle="@string/pref_timeSec_dialog"
+        android:entries="@array/time_sec"
+        android:entryValues="@array/time"
+        android:key="@string/TIME_SECONDS"
+        android:summary="@string/pref_timeSec_summary"
+        android:title="@string/pref_timeSec_title" />
+
+
+
+        />
+
+    </PreferenceCategory>
+</PreferenceScreen>

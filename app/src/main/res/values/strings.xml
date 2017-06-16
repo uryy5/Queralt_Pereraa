@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Reversi</string>
+    <string name="cpu">CPU</string>
+    <string name="player">Player</string>
+    <string name="player2">Player 2</string>
+    <string name="title_activity_game_screen">GameScreen</string>
+    <string name="you">You</string>
+    <string name="score">Score:</string>
+    <string name="time_00_00">Time 00:00</string>
+    <string name="total_time_00_00">Total time: 00:00</string>
+    <string name="title_activity_options">Options</string>
+    <string name="player_1_name">Player 1 Name</string>
+    <string name="player_2_name">Player 2 Name</string>
+    <string name="yes">Yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="back_to_main_title">Back to main title</string>
+    <string name="back_to_main_message">End Game?</string>
+
+    <string name="game_rule">1. El joc consisteix en omplir el tauler amb el mÃ xim de fitxes del teu color (el negre), fent girar les fitxes del oponent (app) que son blanquesã€‚\n\n
+                             2. A cada torn, el jugador colÂ·loca una fitxa en una casella buida, de manera que entre aquesta i una altradel mateix color quedin encerclades una o mÃ©s fitxes del oponent. Les fitxes entreamdues queden automÃ ticament convertides al color de qui ha tiratã€‚\n\n
+                             3. Les linies compten en horitzontal, diagonal i verticalã€‚Una mateixa fitxa pot caputar peces de diferents linies, si aconsegueix encerclar-les dÂ´aquest mateix colorã€‚\n\n
+                             4. Si una jugador no pot colocar cap fitxa de la manera descrita, perd el tornã€‚Continua lÂ´alternanÃ§a fins que cap dels dos pot colÂ·locar una fitxa o bÃ© tot el tauler ha quedat cobert de fitxesã€‚\n\n
+                             5. Guanya el jugador que ha aconsguit colÂ·locar mÃ©s fitxes del seu colorã€‚\n</string>
+    <string name="game">Reversi</string>
+
+    <string name="time_over" formatted="false">Time Over!\n%d cells remaining.</string>
+    <string name="simple_time_over">Time Over</string>
+    <string name="simple_game_over">Game Over</string>
+    <string name="simple_win">Win</string>
+
+    <string name="time_remaining" formatted="false">\n%d seconds left.</string>
+    <string name="win">You win!</string>
+    <string name="ok" translatable="false">OK</string>
+    <string name="results_header">Reversi Results</string>
+
+    <string name="log_template" formatted="false">
+        Alias: %s.\n
+        Oponent: %d. \n
+        Tu: %d.\n
+        Tamany: %d.\n
+        Total temps: %s.\n
+    </string>
+    <string name="date_time_text">Date and Time</string>
+    <string name="subject">Resultats Rebersi </string>
+    <string name="email_text">E-mail destinatari</string>
+    <string name="log_values">Valors del Log </string>
+    <string name="new_game">Nou joc</string>
+    <string name="exit">Sortir</string>
+    <string name="send_email">Send e-mail</string>
+    <string name="cells_remaining"> caselles pendents</string>
+
+    <string name="noDeshacer">Cannot undo!</string>
+    <string name="gana1">Player 1 Won!</string>
+    <string name="gana2">Player 2 Won!</string>
+    <string name="tablas">It\'s a tie!</string>
+    <string name="tuganas">You won!</string>
+    <string name="ganaAndroid">Android won!</string>
+    <string name="bloqueado2">Pl. 2 cannot move!\nIt\'s Player1\'s turn!</string>
+    <string name="bloqueado1">Pl. 1 cannot move!\nIt\'s Player2\'s turn!</string>
+    <string name="androidBloqueado">Android is trapped!\nYou move again!</string>
+    <string name="prohibido">Wrong movement!</string>
+
+    <string name="action_settings">Ajuda</string>
+    <string name="menu_send">Enviar</string>
+    <string name="menu_edit">Editar</string>
+    <string name="h_log_template" formatted="false">
+    Alias: %s, Date: %s, Result: %s.\n
+    </string>
+    <string name="title_activity_settings"> .
+                                            .
+                                            .</string>
+
+
+    <string name="OptionsTitle">Opctions</string>
+    <string name="startBtn">Comença</string>
+    <string name="alias">Usuari</string>
+    <string name="optionsHint1">Posar el teu usuari: </string>
+    <string name="size">Mida de la taula:: </string>
+    <string name="time">Temps: </string>
+
+
+
+    <string name="GameOptions">Opcions del joc</string>
+    <string name="default_user">Usuari1</string>
+    <string name="pref_username_dialog">Fill the gap with the username</string>
+    <string name="pref_username_summary">El teu usuari</string>
+    <string name="pref_username_title">Usuari</string>
+    <string name="pref_gridSize_title">Mida de la taula</string>
+    <string name="pref_gridSize_summary">Elegeix la mida de la graella</string>
+    <string name="pref_gridSize_dialog">Mida de la graella</string>
+    <string name="pref_controlTime_title">Temps de control</string>
+    <string name="pref_controlTime_summary">Activar el temps enrere </string>
+    <string name="pref_controlTime_dialog">Activar/Desactivar</string>
+    <string name="pref_timeSec_title">Temps del Joc</string>
+    <string name="pref_timeSec_summary">Seleccionar els segons</string>
+    <string name="pref_timeSec_dialog">Seleccionar el temps</string>
+    <string name="pref_players_title">Numero de judadors</string>
+    <string name="pref_difficulty_summary">Numero de jugadors</string>
+    <string name="pref_difficulty_dialog">Numero de jugadors</string>
+    <string name="Save">Data have been saved successfully</string>
+    <string name="GoBack">Go Back</string>
+    <string name="DatabaseLog">Database of Games</string>
+
+
+
+</resources>
